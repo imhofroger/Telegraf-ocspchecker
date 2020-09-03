@@ -25,8 +25,8 @@ def ocsp_stat(uri):
         data = f'OCSP_Check,URI="{uri}" resolution=2,response_time={responsetime},raw="{ocsp_request}"' 
     return data
 
-
 print(ocsp_stat("google.com"))
+
 ---
 
 To add more URLs to Check add aditional Line like 'print(ocsp_stat("url.rul"))'
