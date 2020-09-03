@@ -31,7 +31,7 @@ To add more URLs to Check add aditional Line like
 ```print(ocsp_stat("url.rul"))```
 
 ### Script Output
-OCSP_Check,URI="google.com" resolution=1,response_time=0.2316288948059082,raw="['Host: google.com:443', 'OCSP URL: http://ocsp.pki.goog/gts1o1core', 'OCSP Status: GOOD']"
+```OCSP_Check,URI="google.com" resolution=1,response_time=0.2316288948059082,raw="['Host: google.com:443', 'OCSP URL: http://ocsp.pki.goog/gts1o1core', 'OCSP Status: GOOD']"```
 
 
 ## Telegraf Inputs
