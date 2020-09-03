@@ -1,6 +1,5 @@
 from ocspchecker import ocspchecker
 import time
-import json
 
 def ocsp_stat(uri):
     start_time = time.time()
